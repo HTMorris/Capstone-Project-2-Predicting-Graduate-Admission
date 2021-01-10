@@ -1,14 +1,7 @@
 # Install package if required
 
-# Install package if required
-
 if(!require(tidyverse)) install.packages("tidyverse", repos = "http://cran.us.r-project.org")
 if(!require(tidymodels)) install.packages("tidymodels", repos = "http://cran.us.r-project.org")
-if(!require(randomForest)) install.packages("randomForest", repos = "http://cran.us.r-project.org")
-if(!require(leaps)) install.packages("leaps", repos = "http://cran.us.r-project.org")
-if(!require(kernlab)) install.packages("kernlab", repos = "http://cran.us.r-project.org")
-if(!require(gbm)) install.packages("gbm", repos = "http://cran.us.r-project.org")
-if(!require(plyr)) install.packages("plyr", repos = "http://cran.us.r-project.org")
 if(!require(caret)) install.packages("caret", repos = "http://cran.us.r-project.org")
 if(!require(GGally)) install.packages("GGally", repos = "http://cran.us.r-project.org")
 if(!require(janitor)) install.packages("janitor", repos = "http://cran.us.r-project.org")
@@ -25,11 +18,6 @@ if(!require(auditor)) install.packages("auditor", repos = "http://cran.us.r-proj
 #load packages
 library(tidyverse)
 library(tidymodels)
-library(randomForest)
-library(leaps)
-library(kernlab)
-library(gbm)
-library(plyr)
 library(caret)
 library(GGally)
 library(janitor)
